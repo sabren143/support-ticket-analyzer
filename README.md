@@ -1,7 +1,7 @@
 
 ---
 
-### 📄 `README.md`
+### `README.md`
 
 ```markdown
 # Support Ticket Analyzer
@@ -15,7 +15,7 @@ This command-line Python tool analyzes support tickets from a JSON file by:
 
 ---
 
-## ✨ Features
+## Features
 
 - ✅ Parses support tickets from `tickets.json`
 - ✅ Categorizes tickets using keyword matching
@@ -24,14 +24,14 @@ This command-line Python tool analyzes support tickets from a JSON file by:
 
 ---
 
-## 🛠️ Technologies Used
+## Technologies Used
 
 - **Language**: Python 3
 - **Libraries**: Only standard Python libraries (`json`, `datetime`, `collections`, `string`)
 
 ---
 
-## 📁 File Structure
+## File Structure
 
 ```text
 support-ticket-analyzer/
@@ -42,7 +42,7 @@ support-ticket-analyzer/
 
 ---
 
-## 🚀 How to Run
+## How to Run
 
 1. Make sure you have Python 3 installed.
 2. Place all files in the same directory.
@@ -64,7 +64,7 @@ The program will then:
 
 ---
 
-## 🧪 Example Ticket Format (tickets.json)
+## Example Ticket Format (tickets.json)
 
 ```json
 {
@@ -82,13 +82,12 @@ The program will then:
 
 ---
 
-## 👩‍💻 About Me
+## About Me
 
 I'm **Sabrin Khatib**, a junior developer with a strong interest in practical problem-solving, clean code, and backend-focused development.
 
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/sabrin-khatib-802a96252/)
 
 Thank you for reviewing my submission!
-```
 
 ---
