@@ -1,6 +1,9 @@
 
+---
+
 ### 📄 `README.md`
 
+```markdown
 # Support Ticket Analyzer
 
 Hi! I'm **Sabrin Khatib**, and this is my solution for the **Junior Full Stack Home Assignment** — specifically, **Option 1: Support Ticket Analyzer**.
@@ -12,12 +15,12 @@ This command-line Python tool analyzes support tickets from a JSON file by:
 
 ---
 
-## Features
+## ✨ Features
 
-- Parses support tickets from `tickets.json`
-- Categorizes tickets using keyword matching
-- Displays a summary of categories (e.g., login, bug, payment)
-- Filters and shows tickets created before a given date
+- ✅ Parses support tickets from `tickets.json`
+- ✅ Categorizes tickets using keyword matching
+- ✅ Displays a summary of categories (e.g., login, bug, payment)
+- ✅ Filters and shows tickets created before a given date
 
 ---
 
@@ -30,23 +33,30 @@ This command-line Python tool analyzes support tickets from a JSON file by:
 
 ## 📁 File Structure
 
+```text
 support-ticket-analyzer/
-├── support_ticket_analyzer.py        # Main Python script
+├── ticket_tool.py        # Main Python script
 ├── tickets.json          # Input file with ticket data
 └── README.md             # Project documentation
+```
 
+---
 
 ## 🚀 How to Run
 
 1. Make sure you have Python 3 installed.
 2. Place all files in the same directory.
 3. Open a terminal in that directory and run:
-   support_ticket_analyzer.py        
 
+```bash
+python ticket_tool.py
+```
 
-5. When prompted, enter a date in the format:
+4. When prompted, enter a date in the format:
 
+```
 YYYY-MM-DD
+```
 
 The program will then:
 - Print a summary of ticket categories
@@ -54,9 +64,9 @@ The program will then:
 
 ---
 
-## Example Ticket Format (tickets.json)
+## 🧪 Example Ticket Format (tickets.json)
 
-```
+```json
 {
   "tickets": [
     {
@@ -70,10 +80,15 @@ The program will then:
 }
 ```
 
+---
 
 ## 👩‍💻 About Me
 
 I'm **Sabrin Khatib**, a junior developer with a strong interest in practical problem-solving, clean code, and backend-focused development.
-[LinkedIn Profile](https://www.linkedin.com/in/sabrin-khatib-802a96252/)
+
+🔗 [LinkedIn Profile](https://www.linkedin.com/in/sabrin-khatib-802a96252/)
 
 Thank you for reviewing my submission!
+```
+
+---
