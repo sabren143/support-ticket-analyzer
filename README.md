@@ -17,10 +17,10 @@ This command-line Python tool analyzes support tickets from a JSON file by:
 
 ## Features
 
-- ✅ Parses support tickets from `tickets.json`
-- ✅ Categorizes tickets using keyword matching
-- ✅ Displays a summary of categories (e.g., login, bug, payment)
-- ✅ Filters and shows tickets created before a given date
+-  Parses support tickets from `tickets.json`
+-  Categorizes tickets using keyword matching
+-  Displays a summary of categories (e.g., login, bug, payment)
+-  Filters and shows tickets created before a given date
 
 ---
 
@@ -35,9 +35,9 @@ This command-line Python tool analyzes support tickets from a JSON file by:
 
 ```text
 support-ticket-analyzer/
-├── ticket_tool.py        # Main Python script
-├── tickets.json          # Input file with ticket data
-└── README.md             # Project documentation
+├── support_ticket_analyzer.py       # Main Python script
+├── tickets.json                     # Input file with ticket data
+└── README.md                        # Project documentation
 ```
 
 ---
@@ -49,7 +49,7 @@ support-ticket-analyzer/
 3. Open a terminal in that directory and run:
 
 ```bash
-python ticket_tool.py
+python support_ticket_analyzer.py
 ```
 
 4. When prompted, enter a date in the format:
