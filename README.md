@@ -3,7 +3,6 @@
 
 ### `README.md`
 
-```markdown
 # Support Ticket Analyzer
 
 Hi! I'm **Sabrin Khatib**, and this is my solution for the **Junior Full Stack Home Assignment** — specifically, **Option 1: Support Ticket Analyzer**.
