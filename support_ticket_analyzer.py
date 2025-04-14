@@ -127,8 +127,12 @@ def show_tickets_before_date(tickets, user_date):
             print(f"- [{ticket['ticketId']}] {subject} | Created at: {ticket['created_at']} | Category: {ticket['category']}")
 
 def main():
+    print("HI!")
     tickets = load_and_parse_tickets("tickets.json")
     categorized_tickets, summary = categorize_all_tickets(tickets)
     print_category_summary(summary)
     user_date = prompt_user_date()
     show_tickets_before_date(categorized_tickets, user_date)
+
+if __name__ == "__main__":
+    main()
