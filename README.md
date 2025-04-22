@@ -5,8 +5,6 @@
 
 # Support Ticket Analyzer
 
-Hi! I'm **Sabrin Khatib**, and this is my solution for the **Junior Full Stack Home Assignment** — specifically, **Option 1: Support Ticket Analyzer**.
-
 This command-line Python tool analyzes support tickets from a JSON file by:
 - Categorizing them based on common keywords
 - Summarizing how many tickets fall into each category
@@ -86,7 +84,5 @@ The program will then:
 I'm **Sabrin Khatib**, a junior developer with a strong interest in practical problem-solving, clean code, and backend-focused development.
 
 🔗 [LinkedIn Profile](https://www.linkedin.com/in/sabrin-khatib-802a96252/)
-
-Thank you for reviewing my submission!
 
 ---
